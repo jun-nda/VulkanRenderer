@@ -9,7 +9,7 @@ SET(MAIN_CPP Main.cpp)
 #if(EXISTS ${HOMEWORK_FOLDER}/${HOMEWORK_NAME}.h)
 #	SET(MAIN_HEADER ${HOMEWORK_FOLDER}/${HOMEWORK_NAME}.h)
 #ENDIF()
-# imgui homework requires additional source files
+# imgui homework requires additional source file
 file(GLOB ADD_SOURCE "../external/imgui/*.cpp")
 SET(SOURCE ${SOURCE} ${ADD_SOURCE})
 # wayland requires additional source files
